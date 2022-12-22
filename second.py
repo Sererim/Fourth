@@ -54,9 +54,9 @@ class TrialDivison():
 def main() -> int:
     num: int = 0
     factor = TrialDivison()
-    
+    print(Utils.message(0))
     while True:
-        num = int(input(Utils.message(0)))
+        num = int(input(Utils.message(3)))
         factor.get_N(num)
         print(f"Slow method:\n{factor.snail_algorithm()}\n" + 
               f"Fast method:\n{factor.rabbit_algorithm()}")

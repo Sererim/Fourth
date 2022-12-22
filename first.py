@@ -56,7 +56,7 @@ def main() -> int:
     
     d: float = 0
     
-    print(Utils.message(0))
+    print(Utils.message(3))
     pi = Calculate_pi()
     pi.get_pi()
     
