@@ -10,7 +10,8 @@ class Utils:
             "Enter numbers.\n",
             "Enter a number.\n",
             "Do you want to treminate the program Y/y ?.\n",
-            "Error! Number must be positive!"
+            "Error! Number must be positive!\n",
+            "Error! k ∊ [1,6]\n"
         ]
         
         return words[num] 
